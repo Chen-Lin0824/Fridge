@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/shop_lay01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/shoplist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/shoplist_addbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/p10"
+            android:layout_marginBottom="@dimen/p10"
+            android:background="#00000000"
+            app:srcCompat="@drawable/add_cp_btn" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shop_lay02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Fridge_HpBg"
+        android:visibility="invisible">
+
+        <Spinner
+            android:id="@+id/spnName2"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/pa100"
+            android:alwaysDrawnWithCache="true"
+            android:background="@android:drawable/btn_dropdown"
+            android:dropDownWidth="match_parent"
+            android:keepScreenOn="true"
+            android:prompt="@string/prompt_select_name"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvIdTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spnName"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/tvIdTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Yellow"
+            android:textSize="14sp"
+            tools:background="@color/Teal"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtid2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvIdTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/txtid"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/edid2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtid"
+            android:layout_alignBottom="@+id/txtid"
+            android:layout_toEndOf="@+id/txtid"
+            android:background="@color/Yellow"
+            android:enabled="false"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/Red"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <LinearLayout
+            android:id="@+id/shop_linear01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/FridgeDark"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/shoplist_title_ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="請輸入清單名稱"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/shop_linear01"
+            android:layout_margin="@dimen/Margins"
+            android:layout_marginTop="@dimen/p10"
+            android:background="@color/White"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/shop_itemlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/chp_layoutmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="45dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/count_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:text="@string/count_t"
+            android:textColor="@color/Navy"
+            android:textSize="12sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.75"
+            android:background="@color/Yellow">
+
+            <TextView
+                android:id="@+id/tserver_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/servermsg"
+                android:textColor="@color/Navy"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/servermsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Navy"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/now_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:alpha="0.75"
+            android:background="@color/Yellow"
+            android:text="@string/now_time"
+            android:textColor="@color/Navy"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

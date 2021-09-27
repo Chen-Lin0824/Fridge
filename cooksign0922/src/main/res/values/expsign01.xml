@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exp_t001">資料表清單</string>
+    <string name="exp_add">新增</string>
+    <string name="exp_query">查詢</string>
+    <string name="exp_update">編輯刪除</string>
+    <string name="exp_delete">刪除</string>
+    <string name="exp_btnadd">新增</string>
+    <string name="exp_btnquery">查詢</string>
+    <string name="exp_btnlist">清單</string>
+    <string name="exp_btndel">刪除</string>
+    <string name="exp_btnupdate">更新</string>
+    <string name="exp_expitem">過期物品：</string>
+    <string name="exp_time">過期時間：</string>
+    <string name="exp_tv003">地址：</string>
+    <string name="exp_count_t">共計:</string>
+    <string name="exp_btIdnext">下一筆</string>
+    <string name="exp_btIdPrev">上一筆</string>
+    <string name="exp_tvIdTitle">資料內容</string>
+    <string name="exp_btIdtop">首筆</string>
+    <string name="exp_btIdend">尾筆</string>
+    <string name="exp_batch">批次新增</string>
+    <string name="exp_txtid">ID   :</string>
+    <string name="exp_list">列表清單</string>
+    <string name="exp_servermsg">伺服機狀態:</string>
+    <string name="exp_nowtime">更新:</string>
+    <string name="exp_mspinner">下拉選單</string>
+    <string name="exp_prompt_select_name">請選擇好友</string>
+    <string name="exp_btnabandon">取消執行</string>
+    <string name="exp_query_ans">查詢結果</string>
+    <string name="exp_btidcancel">結束列表</string>
+    <string name="exp_btnreport">列表</string>
+    <string name="exp_clear">清空資料</string>
+
+    <string name="exp_m_mysql">匯入MySQL</string>
+    <string name="exp_m_test">測試</string>
+    <string name="exp_btn_test">讀取MySQL資料</string>
+    <string name="exp_hint">*</string>
+    <string name="exp_pic">圖片</string>
+    <string name="exp_action_settings">結束</string>
+    <string name="exp_m_return">返回</string>
+
+
+
+    <string name="exp_remain">過期提醒</string>
+    <string name="exp_clean">清運查詢</string>
+
+
+    <string name="exp_deleterecord">刪除紀錄</string>
+    <string name="exp_deleteitem">確定要刪除過期物品嗎</string>
+    <string name="exp_confirm">確定</string>
+    <string name="exp_cancel">取消</string>
+    <string name="exp_deleteok">刪除成功</string>
+    <string name="exp_deletenotok">刪除失敗</string>
+    <string name="exp_additempage">添加物品頁</string>
+    <string name="exp_updateitempage">更新物品頁</string>
+    <string name="exp_notnull">內容不能為空</string>
+    <string name="exp_saveok">保存成功</string>
+    <string name="exp_savenotok">保存失敗</string>
+    <string name="exp_updateok">更新成功</string>
+    <string name="exp_updatenotok">更新失敗</string>
+    <string name="exp_update1">請輸入物品名</string>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android-work/Fridge/RandomMeal/src/main/res/layout/list_item.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/RandomMeal/src/main/res/layout/m1417.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/RandomMeal/src/main/res/layout/random_meal.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/RandomMeal/src/main/res/menu/m1417.xml" value="0.25" />
+        <entry key="..\:/android-work/Fridge/RandomMeal/src/main/res/menu/main.xml" value="0.28703703703703703" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/cooklist.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/fridge.xml" value="0.27314814814814814" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/list_item.xml" value="0.27314814814814814" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/random_meal.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/random_setting.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/recipe_list.xml" value="0.33" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/recipe_list_item.xml" value="0.3536458333333333" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/shoplist_checkbox_item.xml" value="0.3536458333333333" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/shoplist_hp_main.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/shoplist_item.xml" value="0.33" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/shoplist_itemshow.xml" value="0.19109947643979058" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/shoplist_main.xml" value="0.1361111111111111" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/layout/shoplist_ph.xml" value="0.33" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/cedit_main.xml" value="0.33" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/fridge.xml" value="0.22" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/main.xml" value="0.22" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/mainexp.xml" value="0.1" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/random_main.xml" value="0.28703703703703703" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/random_setting.xml" value="0.31197916666666664" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/shoplist_main.xml" value="0.25" />
+        <entry key="..\:/android-work/Fridge/cooksign01/src/main/res/menu/shoplist_mainsub.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

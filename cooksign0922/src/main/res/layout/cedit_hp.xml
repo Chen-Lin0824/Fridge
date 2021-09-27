@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_cedit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <RelativeLayout
+        android:id="@+id/chp_relative01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Fridge"
+            android:orientation="vertical"
+
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cedit_h001"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spnName"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/pa100"
+            android:alwaysDrawnWithCache="true"
+            android:background="@android:drawable/btn_dropdown"
+            android:dropDownWidth="match_parent"
+            android:keepScreenOn="true"
+            android:prompt="@string/prompt_select_name"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvIdTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spnName"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/tvIdTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Yellow"
+            android:textSize="14sp"
+            tools:background="@color/Teal"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvIdTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/txtid"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/edid"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtid"
+            android:layout_alignBottom="@+id/txtid"
+            android:layout_toEndOf="@+id/txtid"
+            android:background="@color/Yellow"
+            android:enabled="false"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/Red"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:gravity="start"
+            android:hint="@string/cedit_h002"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btIdtop"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="550dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btIdtop"
+            android:textSize="18sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btIdPrev"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btIdtop"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/btIdtop"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btIdPrev"
+            android:textSize="18sp"
+            tools:text="@string/btIdPrev" />
+
+        <Button
+            android:id="@+id/btIdNext"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btIdPrev"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/btIdPrev"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btIdnext"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btIdend"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btIdNext"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/btIdNext"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btIdend"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/edit_on"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="1dp"
+        android:alpha="0.7"
+        android:background="@android:drawable/picture_frame"
+        android:gravity="center"
+        android:text="@string/edit_on"
+        android:textColor="@color/FridgeDark"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <RelativeLayout
+        android:id="@+id/chp_Relbutton"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="450dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btnadd"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            tools:ignore="DuplicateClickableBoundsCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnabandon"
+            android:layout_width="@dimen/pa100"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btnabandon"
+            android:textSize="18sp"
+            tools:ignore="DuplicateClickableBoundsCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btnupdate"
+            android:textSize="18sp"
+            tools:ignore="DuplicateClickableBoundsCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnquery"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btnquery"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnlist"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btnreport"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btIdDel"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btndel"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/chp_layoutmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="45dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/count_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:text="@string/count_t"
+            android:textColor="@color/Navy"
+            android:textSize="12sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.75"
+            android:background="@color/Yellow">
+
+            <TextView
+                android:id="@+id/tserver_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/servermsg"
+                android:textColor="@color/Navy"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/servermsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Navy"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/now_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:alpha="0.75"
+            android:background="@color/Yellow"
+            android:text="@string/now_time"
+            android:textColor="@color/Navy"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chp_rel_ceditlinear01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btidcancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btidcancel"
+            android:textAlignment="center"
+            android:textColor="@color/FridgeDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/subTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/FridgeDark"
+            android:text="@string/tvIdTitle"
+            android:textColor="@color/White"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

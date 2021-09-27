@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/papayawhip"
+    android:padding="@dimen/Margins"
+    tools:context=".RANDOM_MEAL">
+
+    <TextView
+        android:id="@+id/RM_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/Spacing"
+        android:gravity="center"
+        android:text="@string/RM_t001"
+        android:textColor="@color/Black"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/RM_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RM_t001"
+        android:layout_alignStart="@+id/RM_t001"
+        android:layout_marginTop="30dp"
+        android:background="@color/mediumaquamarine"
+        android:text="@string/RM_b001"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/RM_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:text="@string/RM_result"
+        android:textSize="60sp" />
+
+    <!--    <TableRow-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="550dp"-->
+    <!--        android:alpha="0.75"-->
+    <!--        android:background="@color/Yellow">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tserver_msg"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="@string/servermsg"-->
+    <!--            android:textColor="@color/Navy"-->
+    <!--            android:textSize="12sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/servermsg"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/Navy"-->
+    <!--            android:textSize="12sp" />-->
+    <!--    </TableRow>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/now_time"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:alpha="0.75"-->
+    <!--        android:background="@color/Yellow"-->
+    <!--        android:text="@string/now_time"-->
+    <!--        android:textColor="@color/Navy"-->
+    <!--        android:textSize="12sp" />-->
+
+</RelativeLayout>

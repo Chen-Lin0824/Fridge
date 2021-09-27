@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_setting">個人設定</string>
+    <string name="menu_notify">通知設定</string>
+    <string name="menu_fb">FB粉絲專頁</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_member">關於組員</string>
+    <string name="menu_member_message">第一組組員:</string>
+    <string name="menu_message">是否開啟通知</string>
+    <string name="menu_ok">是</string>
+    <string name="menu_no">否</string>
+
+</resources>

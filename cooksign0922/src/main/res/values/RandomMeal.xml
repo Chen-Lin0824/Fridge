@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RM_t001">不知道要吃什麼?</string>
+    <string name="RM_b001">今晚我想來點...</string>
+    <string name="RM_result"></string>
+
+
+    <string name="menu_edit">編輯</string>
+    <string name="random_meal">餐點</string>
+    <string name="hint_content">有什麼好吃的呢</string>
+    <string name="hint_note">想說的話、覓食地點或是您的大名</string>
+    <string name="hint_meal">推薦的餐點</string>
+</resources>

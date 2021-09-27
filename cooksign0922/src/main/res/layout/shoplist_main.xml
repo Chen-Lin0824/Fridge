@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fridge_HpBg"
+    android:padding="@dimen/Margins">
+
+    <Button
+        android:id="@+id/text_shopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/p030"
+        android:layout_marginBottom="@dimen/p50"
+        android:text="Button" />
+
+    <RelativeLayout
+        android:id="@+id/relative01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/spnName"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:alwaysDrawnWithCache="true"
+            android:background="@android:drawable/btn_dropdown"
+            android:dropDownWidth="match_parent"
+            android:keepScreenOn="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/tvIdTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spnName"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/tvIdTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White"
+            android:textSize="14sp"
+            tools:background="@color/purple_200"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvIdTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/txtid"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/edid"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtid"
+            android:layout_alignBottom="@+id/txtid"
+            android:layout_toEndOf="@+id/txtid"
+            android:background="@color/Yellow"
+            android:enabled="false"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/Red"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtid"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/stv001"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvname"
+            android:layout_alignBottom="@+id/tvname"
+            android:layout_toEndOf="@+id/tvname"
+            android:background="@color/White"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvgrp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvname"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/stv002"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtGrp"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtName"
+            android:layout_alignBaseline="@+id/tvgrp"
+            android:layout_alignBottom="@+id/tvgrp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/tvgrp"
+            android:background="@color/White"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvaddress"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvgrp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/stv003"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtAddr"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvaddress"
+            android:layout_alignBottom="@+id/tvaddress"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/tvaddress"
+            android:background="@color/White"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="70dp"
+            android:alpha="0.5"
+            android:contentDescription="@string/pic"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/moveico" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Relbutton"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="280dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="@dimen/Buttonsize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/add_btn"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            android:visibility="visible"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Button
+            android:id="@+id/btnabandon"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="@dimen/Buttonsize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/ic_delete"
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="@dimen/Buttonsize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit"
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnquery"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="@dimen/Buttonsize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/search01"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnlist"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="@dimen/Buttonsize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/iu06"
+            android:textColor="@color/Red"
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btIdDel"
+            android:layout_width="@dimen/Buttonsize"
+            android:layout_height="@dimen/Buttonsize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/delete"
+            android:textSize="18sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btidcancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/btidcancel"
+            android:textAlignment="center"
+            android:textColor="@color/Blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Yellow"
+            android:text="@string/tvIdTitle"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/count_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:text="@string/count_t"
+            android:textColor="@color/Navy"
+            android:textSize="14sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.75">
+
+            <TextView
+                android:id="@+id/tserver_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/servermsg"
+                android:textColor="@color/Navy"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/servermsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Navy"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/now_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:alpha="0.75"
+            android:text="@string/now_time"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/edit_on"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.7"
+        android:background="@android:drawable/picture_frame"
+        android:gravity="center"
+        android:text="@string/edit_on"
+        android:textColor="@color/Blue"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

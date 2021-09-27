@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hplayout00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fridge_HpBg"
+    android:orientation="vertical"
+    android:padding="@dimen/p05">
+
+    <RelativeLayout
+        android:id="@+id/hplayout02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/fridge_hp_btn"
+            android:layout_width="@dimen/p180"
+            android:layout_height="@dimen/p150"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/p05"
+            android:layout_marginTop="@dimen/p10"
+            app:srcCompat="@drawable/fridge_hp_btn"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/time_hp_btn"
+            android:layout_width="@dimen/p180"
+            android:layout_height="@dimen/p150"
+            android:layout_alignTop="@+id/fridge_hp_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/p0"
+            android:layout_marginEnd="@dimen/p05"
+            app:srcCompat="@drawable/time_hp_btn"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/cook_hp_btn"
+            android:layout_width="@dimen/p180"
+            android:layout_height="@dimen/p150"
+            android:layout_below="@+id/fridge_hp_btn"
+            android:layout_alignStart="@+id/fridge_hp_btn"
+            android:layout_marginStart="@dimen/p0"
+            android:layout_marginTop="@dimen/p05"
+            app:srcCompat="@drawable/cook_hp_btn"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/list_hp_btn"
+            android:layout_width="@dimen/p180"
+            android:layout_height="@dimen/p150"
+            android:layout_alignTop="@+id/cook_hp_btn"
+            android:layout_alignEnd="@+id/time_hp_btn"
+            android:layout_marginTop="@dimen/p0"
+            android:layout_marginEnd="@dimen/p0"
+            app:srcCompat="@drawable/list_hp_btn"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/random_hp_btn"
+            android:layout_width="@dimen/p180"
+            android:layout_height="@dimen/p150"
+            android:layout_below="@+id/cook_hp_btn"
+            android:layout_alignStart="@+id/cook_hp_btn"
+            android:layout_marginStart="@dimen/p0"
+            android:layout_marginTop="@dimen/p05"
+            app:srcCompat="@drawable/random_hp_btn"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/car_hp_btn"
+            android:layout_width="@dimen/p180"
+            android:layout_height="@dimen/p150"
+            android:layout_below="@+id/list_hp_btn"
+            android:layout_alignEnd="@+id/list_hp_btn"
+            android:layout_marginTop="@dimen/p05"
+            android:layout_marginEnd="@dimen/p0"
+            app:srcCompat="@drawable/car_hp_btn"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/hp_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="153dp"
+            android:layout_marginBottom="53dp"
+            android:text="@string/hp_login" />
+
+    </RelativeLayout>
+
+</LinearLayout>

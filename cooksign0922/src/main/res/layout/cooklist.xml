@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_columnWeight="@dimen/p100"
+    android:background="@color/Fridge_HpBg"
+    android:padding="@dimen/p0"
+    tools:context=".Cooklist">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_marginTop="@dimen/p10"-->
+    <!--        android:layout_marginEnd="@dimen/p10"-->
+    <!--        android:text="TextView"-->
+    <!--        android:textColor="@color/Blue"-->
+    <!--        android:textSize="16sp" />-->
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ch_t002"
+        android:layout_alignStart="@+id/ch_t002"
+        android:layout_marginStart="@dimen/p10"
+        android:layout_marginTop="@dimen/p02">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/ch_g002"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:numColumns="auto_fit"
+                android:stretchMode="spacingWidthUniform"
+                tools:ignore="TouchTargetSizeCheck"></GridView>
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/ch_n201"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="@string/ch_n201" />-->
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/ch_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ch_t001"
+        android:layout_alignStart="@+id/ch_t001"
+        android:layout_marginStart="@dimen/p0"
+        android:layout_marginTop="@dimen/p230"
+        android:text="@string/ch_t002"
+        android:textColor="@color/Gray"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ch_t001"
+        android:layout_marginTop="@dimen/p10"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ch_b101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/createcook"
+            android:text="自訂廚藝料理"
+            android:textColor="@color/White"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/clook_b003"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/createcook"
+            android:text="外部食譜"
+            android:textColor="@color/White"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ch_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p10"
+        android:layout_marginTop="@dimen/p20"
+        android:text="@string/ch_t001"
+        android:textColor="@color/Gray"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

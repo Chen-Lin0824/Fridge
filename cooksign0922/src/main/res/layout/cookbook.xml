@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cbook_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/p10"
+        android:gravity="center"
+        android:text="食譜名稱"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/cbook_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/cbook_name"
+        android:layout_marginTop="@dimen/p10"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/cbook01" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbook_img"
+        android:layout_marginTop="@dimen/p10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cbook_t001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p10"
+                android:text="@string/cbook_t001"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

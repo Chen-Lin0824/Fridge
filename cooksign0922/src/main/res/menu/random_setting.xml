@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tw.tcnr03.m1417.M1417">
+
+    <item
+        android:id="@+id/menu_editreturn"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/m_return"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/m_add"
+        android:orderInCategory="101"
+        android:title="@string/m_add"/>
+    <item
+        android:id="@+id/m_query"
+        android:orderInCategory="102"
+        android:title="@string/m_query"/>
+
+    <item
+        android:id="@+id/m_batch"
+        android:orderInCategory="105"
+        android:title="@string/m_batch"
+        android:visible="false" />
+    <item
+        android:id="@+id/m_clear"
+        android:orderInCategory="106"
+        android:title="@string/m_clear"
+        android:visible="false" />
+    <item
+        android:id="@+id/m_list"
+        android:orderInCategory="107"
+        android:title="@string/m_list"
+        android:visible="false" />
+    <item
+        android:id="@+id/m_mysql"
+        android:orderInCategory="110"
+        android:title="@string/m_mysql01" />
+    <item
+        android:id="@+id/m_test"
+        android:orderInCategory="115"
+        android:title="@string/m_test"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="999"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

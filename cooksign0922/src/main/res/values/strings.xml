@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">冰箱管家</string>
+    <string name="cook_name">料理廚藝</string>
+    <string name="txtView">食譜列表</string>
+    <string name="random_name">隨機餐點</string>
+
+    <string name="expired_name">過期管理</string>
+
+    <string name="fridge_name">冰箱管家</string>
+    <string name="shop_name">購物清單</string>
+    <string name="menu_add">新增</string>
+
+
+    <string name="trash_name">垃圾車open data</string>
+    <string name="todo">TODO</string>
+    <string name="action_settings">結束</string>
+
+    <string name="shoptxt">清單標題名稱</string>
+
+
+    <string name="hp_login">登入</string>
+    <string name="title_activity_m1901">Mytrashcar</string>
+    <string name="title_activity_trashcar_maps">TrashcarMapsActivity</string>
+    <string name="random_content">內容</string>
+    <string name="random_note">補充</string>
+
+
+
+
+
+<!--    // most important keys-->
+<!--    <string name="google_maps_key">AIzaSyBDC11V8-aoOpOM0rmPOwvfH1zs2vBaVXg</string>-->
+
+</resources>

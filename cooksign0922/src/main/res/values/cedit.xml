@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cedit_e001">食譜名稱：</string>
+    <string name="cedit_h001">為你的食譜取個好名字吧！</string>
+    <string name="cedit_h002">在此發揮你的廚藝吧！</string>
+
+    <string name="tt001">資料表清單</string>
+    <string name="m_add">新增</string>
+    <string name="m_query">查詢</string>
+    <string name="m_update">編輯刪除</string>
+    <string name="m_delete">刪除</string>
+    <string name="btnadd">新增</string>
+    <string name="btnquery">查詢</string>
+    <string name="btnlist">清單</string>
+    <string name="btndel">刪除</string>
+    <string name="btnupdate">更新</string>
+    <string name="tv001">姓名：</string>
+    <string name="tv002">群組：</string>
+    <string name="tv003">地址：</string>
+    <string name="count_t">共計:</string>
+    <string name="btIdnext">下一筆</string>
+    <string name="btIdPrev">上一筆</string>
+    <string name="tvIdTitle">資料內容</string>
+    <string name="btIdtop">首筆</string>
+    <string name="btIdend">尾筆</string>
+    <string name="m_batch">批次新增</string>
+    <string name="m_clear">清空資料</string>
+    <string name="txtid">ID   :</string>
+    <string name="m_list">列表清單</string>
+
+    <string name="m_spinner">下拉選單</string>
+    <string name="prompt_select_name">請選擇好友</string>
+    <string name="btnabandon">取消執行</string>
+    <string name="query_ans">查詢結果</string>
+    <string name="btidcancel">結束列表</string>
+    <string name="btnreport">列表</string>
+    <string name="clear">清空資料</string>
+
+    <string name="m_mysql">匯入MySQL</string>
+    <string name="m_mysql01">匯入最新資料</string>
+    <string name="m_test">測試</string>
+    <string name="btn_test">讀取MySQL資料</string>
+    <string name="hint">*</string>
+    <string name="pic">圖片</string>
+
+    <string name="now_time">更新:</string>
+    <string name="m_return">返回編輯</string>
+    <string name="servermsg">伺服機狀態:</string>
+
+    <string name="m_edit_start">開啟編輯</string>
+    <string name="m_edit_stop">關閉編輯</string>
+    <string name="edit_on">編輯中...</string>
+
+    <string name="stv001">標題：</string>
+    <string name="stv002">內容：</string>
+    <string name="stv003">時間：</string>
+
+    //購物清單
+    <string name="cadd_btn">新增食譜</string>
+    <string name="cupdate_btn">更新現有食譜內容</string>
+    <string name="sadd_btn">儲存購物清單</string>
+    <string name="supdate_btn">更新清單內容</string>
+    <string name="sdel_btn">刪除清單</string>
+    <string name="cdel_btn">刪除食譜</string>
+    <string name="sadditem_btn">新增一筆購物項目</string>
+    <string name="s_additem_edit" />
+    <string name="additemedit_hint">在此輸入要購買的品項</string>
+    <string name="s_additeminfo_btn">新增購物品項</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ch_t001">自訂食譜</string>
+    <string name="ch_t002">推薦食譜</string>
+    <string name="ch_t003">外部食譜</string>
+    <string name="ch_n201">推薦食譜01</string>
+    <string name="ch_n202">推薦食譜02</string>
+    <string name="ch_n203">推薦食譜03</string>
+    <string name="ch_n301">外部食譜01</string>
+    <string name="ch_n302">外部食譜02</string>
+    <string name="ch_n303">外部食譜03</string>
+
+    <string name="img">圖片</string>
+    <string name="期刊名稱">食譜名稱：</string>
+    <string name="url">期刊連結：</string>
+    <string name="ui_loading">數據正在努力加載中......</string>
+    <string name="clook_text">查看更多</string>
+    <string name="cbook_t001">食譜內容</string>
+    <string name="text_test">填入目前ID</string>
+
+
+
+</resources>
